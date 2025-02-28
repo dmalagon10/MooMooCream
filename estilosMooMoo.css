@@ -1,94 +1,91 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf7ea;
 }
-.contenedor{
+.contenedor {
     max-width: 1200px; 
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
-@media only screen and (max-width: 600px) {
-    .contenedor {
-        padding: 0px; 
-    }
-}
-.imagen_p{
+.imagen_p {
     max-width: 100%;
     height: auto;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
-h1{
+
+h1 {
     background-color: #ab8053;
     color: white;
     text-align: center;
-    font-size: 70px;
-}
-h2{
-    color: #7d5639;
     font-size: 50px;
-    padding: 25px;
-    text-align: center;
+    padding: 10px;
 }
-p{
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
+h2 {
+    color: #7d5639;
+    font-size: 30px;
+    padding: 15px;
 }
-.copyright{
-    background-color: #ab8053;
-    padding: 20px;
-    color: white;
-    text-align: center;
-}
+
 .producto-container {
     display: flex;
-    justify-content: space-around; /* Ajusta la distribución horizontal de los elementos */
-    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .producto {
-    margin: 10px; /* Ajusta el espacio entre los productos */
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
-
 .imagen {
-    width: 400px; /* Ajusta el tamaño de las imágenes */
+    width: 250px;
     height: auto;
+    border-radius: 10px;
 }
-
 .producto-info {
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-p {
-    margin-bottom: 5px; /* Ajusta el espacio entre el texto y el botón */
 }
 .unidades {
+    width: 50px;
     text-align: center;
-    width: 50px; /* Ajusta el ancho según tus necesidades */
+    padding: 5px;
 }
-.contenedor-boton{
+
+.contenedor-boton {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 20vh; /* Ajusta la altura según tus necesidades */
+    margin: 20px 0;
 }
 .boton {
+    background-color: #ab8053;
+    color: white;
     border: none;
-    text-transform: uppercase;
+    padding: 15px 25px;
     cursor: pointer;
-    padding: 15px;
-    margin-top: 0px;
-    width: 50%;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 .boton:hover {
     background-color: #7e3512;
-    color:white;
 }
-.arbol{
+
+.arbol {
     width: 30%;
     height: auto;
     display: block;
-    margin:0 auto;
+    margin: 20px auto;
+}
+
+.copyright {
+    background-color: #ab8053;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
 }
